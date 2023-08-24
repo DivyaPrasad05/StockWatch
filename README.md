@@ -6,8 +6,9 @@ A program that utilizes webscraping to grab financial data from Yahoo! Finance a
 
 StockWatch was developed as a tool to enhance investment strategies and optimize day trading activities. By entering just the stock symbol, the program will display the stock’s current price and price difference (from the closing bid) by using real-time data. After which, one is able to set custom price thresholds (price ceilings or price floors) for their selected stock. The program will then monitor the real-time price movements and when it crosses the selected price threshold, it will instantly send a push notification to alert the user about the event.
 
-![Notification Screenshot](assets/notification.png)
 _Fig 1: This is an example of a notification pushed when the market price crossed a price ceiling threshold_
+
+![Notification Screenshot](assets/notification.png)
 
 **Technologies Used:** Python and Python modules including: BeautifulSoup, plyer, requests.
 
